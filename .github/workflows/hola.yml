@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - name: Dí Hola
-        run: echo "Hello Wolrd and Gilberto"
+        run: echo "Welcome a todos"
 
-      - name: Decir la Fecha
+      - name: FechaSistema
         run: date
