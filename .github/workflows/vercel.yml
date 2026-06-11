@@ -5,9 +5,11 @@ on:
     branches:
       - main
       - master
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    working-directory: ./path-to-your-project  # Add this if package.json is in a subdirectory
 
     env:
       VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
